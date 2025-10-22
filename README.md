@@ -1,5 +1,7 @@
 # AWS-CodeGirls-Desafio-3
 
+
+
 ## AWS CloudFormation — Automatizando Infraestrutura com Código
 Nesta fase do meu aprendizado em AWS, explorei o CloudFormation, uma ferramenta que permite construir e organizar toda a infraestrutura na nuvem usando arquivos de configuração. Com ela, é possível definir recursos como redes, servidores e armazenamento de forma automatizada e consistente.
 
