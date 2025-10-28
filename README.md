@@ -1,43 +1,57 @@
-# AWS-CodeGirls-Desafio-3
+# AWS-CodeGirls-Desafio-3 
+
+
+## 🚀 AWS Step Functions 
+
+### 📌 Visão Geral  
+Este repositório reúne a documentação do laboratório realizado no Bootcamp da Digital Innovation One (DIO), com foco na criação de **workflows automatizados** utilizando o serviço **AWS Step Functions**.
+
+A ideia é registrar aprendizados, anotações e boas práticas adquiridas durante a execução do desafio, servindo como referência para estudos futuros e aplicações reais.
+
+Cada etapa 
+### 📖 O que é AWS Step Functions?  
+O **AWS Step Functions** é um serviço que permite **orquestrar diferentes serviços da AWS** em fluxos de trabalho **serverless**, tornando a automação mais simples e eficiente.
+
+De acordo com a AWS, ele oferece:  
+- **Integração entre serviços**: conecta Lambda, S3, DynamoDB, SNS, ECS e outros.  
+- **Monitoramento em tempo real**: acompanhamento via console e CloudWatch.  
+- **Confiabilidade**: suporte a tentativas automáticas, tratamento de erros e execução paralela.  
+- **Escalabilidade**: projetado para lidar com milhares de execuções simultâneas.  
+
+---
+
+### 🎯 Objetivos do Desafio  
+Ao concluir este laboratório, você será capaz de:  
+✔ Aplicar conceitos de automação em um ambiente prático;  
+✔ Documentar processos técnicos de forma clara;  
+✔ Utilizar o GitHub para compartilhar conhecimento técnico.  
+
+---
+
+### 🔧 Serviços Utilizados  
+- **Amazon S3** – armazenamento de dados  
+- **AWS Lambda** – execução de funções serverless  
+- **AWS Step Functions** – orquestração do fluxo  
+- **Amazon SNS** – envio de notificações  
+- **(Opcional) DynamoDB** – armazenamento estruturado  
+
+---
+
+### ▶️ Como Testar o Workflow  
+1. Criar um bucket no S3 para armazenar os dados.  
+2. Implementar uma função Lambda para processar os arquivos.  
+3. Configurar o Step Functions com os estados do fluxo.  
+4. Definir destino para os resultados (outro bucket ou banco).  
+5. Configurar SNS para enviar alertas ao final do processo.  
+
+---
+
+### 🚀 Benefícios do Step Functions  
+- **Escalabilidade**: suporta múltiplas execuções simultâneas.  
+- **Baixo acoplamento**: cada etapa é independente.  
+- **Monitoramento**: integração com CloudWatch.  
+- **Resiliência**: tolerância a falhas e mecanismos de retry.
 
 
 
-## AWS CloudFormation — Automatizando Infraestrutura com Código
-Nesta fase do meu aprendizado em AWS, explorei o CloudFormation, uma ferramenta que permite construir e organizar toda a infraestrutura na nuvem usando arquivos de configuração. Com ela, é possível definir recursos como redes, servidores e armazenamento de forma automatizada e consistente.
 
-## 🧠 O que é o CloudFormation?
-O AWS CloudFormation é um serviço que transforma arquivos escritos em YAML ou JSON em ambientes completos na AWS. Em vez de configurar tudo manualmente pelo console, você descreve os recursos em um template e deixa o CloudFormation cuidar do resto.
-
-Essa prática segue o conceito de Infraestrutura como Código (IaC), que facilita a reprodução, controle de versões e automação de ambientes.
-
-## 🛠️ O que aprendi ao criar uma Stack
-Durante o desafio, simulei a criação de uma Stack no CloudFormation, documentando cada etapa sem realizar o deploy real. Isso me ajudou a entender o fluxo completo de provisionamento.
-
-Etapas que segui:
-Planejamento dos recursos
-Listei os componentes necessários (como VPC, EC2, RDS, S3, etc.) e suas relações.
-
-Criação do template
-Estruturei o arquivo com seções como Parameters, Resources, Outputs e Conditions, tornando-o reutilizável e flexível.
-
-Validação do template
-Testei a estrutura e lógica do arquivo para garantir que tudo estava correto antes de qualquer execução.
-
-Preparação para o deploy
-Revisei parâmetros, tags e permissões, simulando o processo de criação via console e CLI.
-
-Monitoramento da Stack
-Estudei como acompanhar os eventos de criação e como usar o CloudWatch para identificar falhas ou confirmar sucesso.
-
-Atualizações seguras com Change Sets
-Aprendi a revisar alterações antes de aplicá-las, evitando impactos inesperados.
-
-Rollback e exclusão
-Entendi como o CloudFormation lida com falhas e como remover stacks de forma segura.
-
-## 📦 Por que usar Stacks?
-Agrupam recursos relacionados para facilitar o gerenciamento.
-Permitem criar ambientes idênticos (dev, test, prod) com rapidez.
-Facilitam o versionamento e auditoria da infraestrutura.
-Automatizam processos e integram com pipelines de CI/CD.
-Reduzem erros manuais e garantem consistência entre ambientes.
