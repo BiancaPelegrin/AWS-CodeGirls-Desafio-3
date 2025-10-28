@@ -9,6 +9,8 @@ Este repositório reúne o registro do laboratório realizado no Bootcamp da Dig
 A ideia é registrar aprendizados, anotações e boas práticas adquiridas durante a execução do desafio, servindo como referência para estudos futuros e aplicações reais.
 
  
+
+
 ### 📖 O que é AWS Step Functions?  
 O **AWS Step Functions** é um serviço que permite **orquestrar diferentes serviços da AWS** em fluxos de trabalho **serverless**, tornando a automação mais simples e eficiente.
 
