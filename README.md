@@ -1,7 +1,11 @@
 # AWS-CodeGirls-Desafio-3 
 
 
-## 🚀 AWS Step Functions 
+## 💻 AWS Step Functions 
+
+
+
+
 
 ### 📌 Visão Geral  
 Este repositório reúne o registro do laboratório realizado no Bootcamp da Digital Innovation One (DIO), com foco na criação de **workflows automatizados** utilizando o serviço **AWS Step Functions**.
@@ -11,7 +15,7 @@ A ideia é registrar aprendizados, anotações e boas práticas adquiridas duran
  
 ---
 
-### 📖 O que é AWS Step Functions?  
+### 🧠 O que é AWS Step Functions?  
 O **AWS Step Functions** é um serviço que permite **orquestrar diferentes serviços da AWS** em fluxos de trabalho **serverless**, tornando a automação mais simples e eficiente.
 
 De acordo com a AWS, ele oferece:  
@@ -22,7 +26,7 @@ De acordo com a AWS, ele oferece:
 
 ---
 
-### 🎯 Objetivos do Desafio  
+### 🚀 Objetivos do Desafio  
 Ao concluir este laboratório, você será capaz de:  
 ✔ Aplicar conceitos de automação em um ambiente prático;  
 ✔ Documentar processos técnicos de forma clara;  
@@ -30,7 +34,7 @@ Ao concluir este laboratório, você será capaz de:
 
 ---
 
-### 🔧 Serviços Utilizados  
+### ⚒️ Serviços Utilizados  
 - **Amazon S3** – armazenamento de dados  
 - **AWS Lambda** – execução de funções serverless  
 - **AWS Step Functions** – orquestração do fluxo  
@@ -39,7 +43,7 @@ Ao concluir este laboratório, você será capaz de:
 
 ---
 
-### ▶️ Como Testar o Workflow  
+### 📡 Como Testar o Workflow  
 1. Criar um bucket no S3 para armazenar os dados.  
 2. Implementar uma função Lambda para processar os arquivos.  
 3. Configurar o Step Functions com os estados do fluxo.  
@@ -48,7 +52,7 @@ Ao concluir este laboratório, você será capaz de:
 
 ---
 
-### 🚀 Benefícios do Step Functions  
+### 💡 Benefícios do Step Functions  
 - **Escalabilidade**: suporta múltiplas execuções simultâneas.  
 - **Baixo acoplamento**: cada etapa é independente.  
 - **Monitoramento**: integração com CloudWatch.  
